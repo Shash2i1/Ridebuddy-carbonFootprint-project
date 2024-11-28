@@ -3,6 +3,7 @@ import jsPDF from "jspdf";
 import html2canvas from "html2canvas";
 import fileDownload from "js-file-download";
 import "jspdf-autotable";
+import { Icon } from '@iconify/react';
 
 
 const ResultsDisplay = ({ results, cumulativeData }) => {
@@ -127,21 +128,21 @@ const ResultsDisplay = ({ results, cumulativeData }) => {
             <div className="flex flex-wrap justify-start gap-4">
               <button
                 onClick={() => handleShare("WhatsApp")}
-                className="bg-green-500 text-white px-4 py-2 rounded md:w-32"
+                className="bg-grey-800 text-white px-4 py-2 rounded md:w-32"
               >
-                WhatsApp
+                <Icon icon="logos:whatsapp-icon" />
               </button>
               <button
                 onClick={() => handleShare("Facebook")}
-                className="bg-blue-500 text-white px-4 py-2 rounded md:w-32"
+                className="bg-grey-800 text-white px-4 py-2 rounded md:w-32"
               >
-                Facebook
+                <Icon icon="logos:facebook" />
               </button>
               <button
                 onClick={() => handleShare("Instagram")}
-                className="bg-pink-500 text-white px-4 py-2 rounded md:w-32"
+                className="bg-grey-800 text-white px-4 py-2 rounded md:w-32"
               >
-                Instagram
+                <Icon icon="skill-icons:instagram" />
               </button>
             </div>
             <button
