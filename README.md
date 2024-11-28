@@ -1,12 +1,21 @@
-<<<<<<< HEAD
-# React + Vite
+# Carbon Footprint Tracker
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project calculates and tracks the carbon emissions and savings for your trips using various parameters like distance, fuel type, traffic, and more. The app provides insights through calculations, milestones, and visual graphs.
 
-Currently, two official plugins are available:
+## Features
+- Calculate carbon footprint for each trip.
+- Track cumulative savings over time.
+- Display results in a clear and interactive table.
+- Graphical representation of total emissions and savings.
+- Share and download results as PDF.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-=======
-# Ridebuddy-carbonFootprint-project
->>>>>>> c1501fedccd39c63c661bcd329fc91b548a808ae
+## Technologies Used
+- React
+- jsPDF
+- Chart.js
+- Tailwind CSS
+
+## How to Use
+1. Clone the repository to your local machine:
+   ```bash
+   git clone https://github.com/your-username/carbon-footprint-tracker.git
