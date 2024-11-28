@@ -18,4 +18,4 @@ This project calculates and tracks the carbon emissions and savings for your tri
 ## How to Use
 1. Clone the repository to your local machine:
    ```bash
-   git clone https://github.com/your-username/carbon-footprint-tracker.git
+   git clone https://github.com/Shash2i1/Ridebuddy-carbonFootprint-project.git
