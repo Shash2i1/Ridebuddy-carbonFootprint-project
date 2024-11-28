@@ -79,6 +79,7 @@ const ResultsDisplay = ({ results, cumulativeData }) => {
   pdf.setTextColor("#7A3DF7"); // Set text color for "Thank You" message
   pdf.setFontSize(12);
   pdf.text(thankYouMessage, 10, pdf.internal.pageSize.height - 20);
+  pdf.text("created by shashank", 5, pdf.internal.pageSize.height - 10);
 
   // Save the PDF
   pdf.save("carbon_results.pdf");
