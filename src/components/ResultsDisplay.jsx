@@ -111,13 +111,13 @@ const ResultsDisplay = ({ results, cumulativeData }) => {
       <p className="dark:text-white"><strong>Total Emissions:</strong> {results.totalEmissions.toFixed(2)} g</p>
       <div className="flex justify-between mt-4">
         <button onClick={handleDownload} className="bg-gradient-to-r from-[#7F40F3] via-[#964DDF] to-[#DC74A7] text-white px-4 py-2 rounded">
-          Download PDF
+        <div className="flex items-center justify-center"><Icon icon="line-md:download-loop" />Download PDF</div>
         </button>
         <button
           onClick={() => setShowShareModal(true)}
           className="bg-green-500 text-white px-4 py-2 rounded"
         >
-          Share
+          <div className="flex items-center justify-center"><Icon icon="bitcoin-icons:share-filled" />share</div>
         </button>
       </div>
 
